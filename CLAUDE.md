@@ -24,4 +24,5 @@ Known mess: irregular updates, missing months, column changes, cause codes missi
 
 ## Git
 - One-line Conventional Commits, no body, no Co-Authored-By trailer.
+- A commit that finishes an issue ends with `(closes #N)`, e.g. `feat(ingest): download delay files to S3 (closes #5)`.
 - Show me the diff and a short summary before every commit; commit only after I approve.
