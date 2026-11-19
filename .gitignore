@@ -1,0 +1,27 @@
+# Data: raw and processed files stay out of git (too big; anyone can re-download them)
+data/
+
+# Python environment and caches (rebuilt by uv)
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Secrets: AWS keys and other credentials
+.env
+
+# DuckDB database files
+*.duckdb
+*.duckdb.wal
+
+# dbt build output
+target/
+dbt_packages/
+logs/
+
+# macOS
+.DS_Store
+
+# Private learning notes
+walkthrough.md
