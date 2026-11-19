@@ -13,8 +13,9 @@ Known mess: irregular updates, missing months, column changes, cause codes missi
 ## Commands
 - Run anything: `uv run <command>`. Add a package: `uv add <name>`. Never use pip.
 - Format and lint: `uv run ruff format .` then `uv run ruff check .`
+- Type check: `uv run mypy .`
 - Tests: `uv run pytest` (tests live in `tests/`)
-- pre-commit runs ruff on every commit; if a commit is blocked, fix the cause, never skip the check (no `--no-verify`).
+- pre-commit runs ruff and mypy on every commit; if a commit is blocked, fix the cause, never skip the check (no `--no-verify`).
 
 ## Data rules
 - Never invent or "fix" data silently. Anything odd in the data goes in the quirks log with the file and row.

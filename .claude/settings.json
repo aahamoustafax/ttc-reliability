@@ -3,6 +3,7 @@
     "allow": [
       "Bash(uv run ruff:*)",
       "Bash(uv run pytest:*)",
+      "Bash(uv run mypy:*)",
       "Bash(git status)",
       "Bash(git diff:*)",
       "Bash(git log:*)"
